@@ -1,6 +1,5 @@
-# Woche 3
 
-> [!NOTE]
+> [!info]
 > Das ist die erste komplett mit Markdown formatierte Notiz, welche ich erstellt habe. Hoffentlich verbessert sich der Stil und verlinkungen in der Zukunft.
 
 ## 1.   tl;dr Kapitel 1 bis 3
