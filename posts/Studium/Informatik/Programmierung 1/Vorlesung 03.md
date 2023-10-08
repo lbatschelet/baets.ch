@@ -294,16 +294,4 @@ public class GuessingGame {
 ```java
 
 ```
-## VS Code Java Shortcuts
-| Abkürzung | Beschreibung             | Generierter Code                           |
-|-----------|--------------------------|--------------------------------------------|
-| `syso`     | System.out.println       | `System.out.println("");`{:.java}           |
-| `psvm`     | public static void main  | `public static void main(String[] args) {}` |
-| `fori`     | For-Schleife             | `for (int i = 0; i < ; i++) {}`             |
-| `fore`     | Enhanced For-Schleife    | `for (Type var : iterable) {}`              |
-| `while`    | While-Schleife           | `while (condition) {}`                      |
-| `do`       | Do-While-Schleife        | `do {} while (condition);`                  |
-| `if`       | If-Anweisung             | `if (condition) {}`                         |
-| `ifelse`   | If-Else-Anweisung        | `if (condition) {} else {}`                 |
-| `switch`   | Switch-Anweisung         | `switch (variable) { case value: break; }`  |
-| `sout`     | System.out.print         | `System.out.print("");`                     |
+
