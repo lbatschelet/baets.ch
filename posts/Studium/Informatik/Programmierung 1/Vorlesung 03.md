@@ -1,4 +1,4 @@
-> [!info]
+> [!INFO]
 > Das ist die erste komplett mit Markdown formatierte Notiz, welche ich erstellt habe. Hoffentlich verbessert sich der Stil und verlinkungen in der Zukunft.
 ## tl;dr Kapitel 1 bis 3
 - Java Programme werden mit *Klassen* erstellt
