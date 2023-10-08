@@ -22,7 +22,7 @@ In the plugin settings of Template, you can also set a date format and a time fo
 
 After setting these formats, `{{date}}` and `{{time}}` in the template files will be replaced by the formatting current time.
 
-For formatting syntax documentation, [please see here](https://momentjs.com/docs/#/displaying/format/).
+For formatting syntax documentation, [[https://momentjs.com/docs/#/displaying/format/]].
 
 _Tip: if you want to have two date formats or two time formats, you can use the other `{{time}}` as the second `{{date}}`, or `{{date}}` as the second `{{time}}`._
 

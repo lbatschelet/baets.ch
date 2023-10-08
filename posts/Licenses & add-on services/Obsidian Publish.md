@@ -141,7 +141,7 @@ Note: mod_rewrite must be enabled, and you may also need to configure [SSLProxyE
 
 ##### Vercel
 
-In `vercel.json` [configure rewrites](https://vercel.com/docs/configuration#project/rewrites):
+In `vercel.json` [[https://vercel.com/docs/configuration#project/rewrites]]:
 
 ```json
 {

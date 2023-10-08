@@ -3,7 +3,7 @@ There are a few differences between the way various PKM and note taking systems 
 On our Forum there is a [post collecting methods that other people have developed](https://forum.obsidian.md/t/meta-post-migration-workflows/768). Right now, it includes:
 
 - [Import from Notion](https://forum.obsidian.md/t/import-from-notion/636)
-- [Import from Notion (automated)](https://forum.obsidian.md/t/notion-2-obsidian-migration-instructions/2728)
+- [[automated)](https://forum.obsidian.md/t/notion-2-obsidian-migration-instructions/2728|Import from Notion (automated)]]
 - [Import from Evernote](https://forum.obsidian.md/t/import-from-evernote/108)
 - [Import from OneNote](https://forum.obsidian.md/t/new-tool-for-migration-from-onenote-updated-and-improved-version/3055)
 - [Import from Apple Notes](https://forum.obsidian.md/t/migrate-from-apple-notes-to-obsidian/732)

@@ -142,36 +142,36 @@ http://obsidian.md - automatic!
 For example, you can link to a file in a vault like so (please note the [[Using obsidian URI#Encoding|required encoding]]):
 
 ```md
-[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
+[[obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md|Link to note]]
 ```
 
-[Link to note](obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md)
+[[obsidian://open?path=D:%2Fpath%2Fto%2Ffile.md|Link to note]]
 
 You can link to a note by its vault name and file name instead of path as well:
 
 ```md
-[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+[[obsidian://open?vault=MainVault&file=MyNote.md|Link to note]]
 ```
 
-[Link to note](obsidian://open?vault=MainVault&file=MyNote.md)
+[[obsidian://open?vault=MainVault&file=MyNote.md|Link to note]]
 
 #### Escaping
 
 If there are spaces in the url, they can be escaped by either using `%20` as a space, such as:
 
 ```md
-[Export options](Pasted%20image)
+[[Pasted image|Export options]]
 ```
 
-[Export options](Pasted%20image)
+[[Pasted image|Export options]]
 
 Or you can enclose the target in `<>`, such as:
 
 ```md
-[Slides Demo](<Slides Demo>)
+[[<Slides Demo>|Slides Demo]]
 ```
 
-[Slides Demo](<Slides Demo>)
+[[<Slides Demo>|Slides Demo]]
 
 ---
 
@@ -202,7 +202,7 @@ Text inside `backticks` on a line will be formatted like code.
 
 ### Code blocks
 
-Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found [at their site](https://prismjs.com/#supported-languages)
+Syntax highlight is supported with the language specified after the first set of backticks. We use prismjs for syntax highlighting, a list of supported languages can be found [[https://prismjs.com/#supported-languages]]
 
 <pre><code>```js
 function fancyAlert(arg) {
@@ -232,7 +232,7 @@ function fancyAlert(arg) {
 ### Task list
 
 ```md
-- [x] #tags, [links](), **formatting** supported
+- [[|x]], **formatting** supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [?] this is also a complete item (works with every character)
@@ -240,7 +240,7 @@ function fancyAlert(arg) {
 - [ ] tasks can be clicked in Preview to be checked off
 ```
 
-- [x] #tags, [links](), **formatting** supported
+- [[|x]], **formatting** supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [?] this is also a complete item (works with every character)

@@ -10,4 +10,4 @@ If you're new to CSS, our community has put together a quick guide to get comfor
 
 Klaas also put together a helpful index of common CSS snippets that you can feel free to mix and match:
 
-> [Obsidian CSS Snippets (on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets)
+> [[on GitHub)](https://github.com/Dmitriy-Shulha/obsidian-css-snippets/tree/master/Snippets|Obsidian CSS Snippets (on GitHub)]]

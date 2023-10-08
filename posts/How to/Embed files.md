@@ -59,11 +59,11 @@ For example, you can embed Twitter tweets like so as suggested by search results
 
 The syntax is inspired by Markdown's image syntax. We had two observations:
 
- 1. `[Image](link.png)` links to the image, but `![Image](link.png)` actually displays it.
+ 1. `[[link.png|Image]]` links to the image, but `![[link.png|Image]]` actually displays it.
 
- 2. The internal link syntax is based on this assumption: `[[My page]]` is a shortcut (or "syntactic sugar" if you will) for `[My page](My page)`.
+ 2. The internal link syntax is based on this assumption: `[[or "syntactic sugar" if you will) for `[My page](My page|[My page]]`.
 
-To combine these two things, we can come up with a third pattern:`![[My page]]` should be equivalent to `![My page](My page)` , which by the image convention, if the title is the same as the link, should display it.
+To combine these two things, we can come up with a third pattern:`![[My page|[My page]]` , which by the image convention, if the title is the same as the link, should display it.
 
 There are other implementations out there, for example Roam Research uses `{{embed: ((NODE_ID))}}`. We have also considered using the `((Page name))` syntax too, but we feel like `![[Page name]]` is more consistent, more familiar, and leaves more room so that the other symbols to have their own meanings.
 
